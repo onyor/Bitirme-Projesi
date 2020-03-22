@@ -1,0 +1,329 @@
+Microsoft Windows [Version 10.0.17763.379]
+(c) 2018 Microsoft Corporation. Tüm haklarý saklýdýr.
+
+C:\WINDOWS\system32>netstat -ab
+
+Active Connections
+
+  Proto  Local Address          Foreign Address        State
+  TCP    0.0.0.0:80             DESKTOP-6N0LA5S:0      LISTENING
+ Can not obtain ownership information
+  TCP    0.0.0.0:135            DESKTOP-6N0LA5S:0      LISTENING
+  RpcSs
+ [svchost.exe]
+  TCP    0.0.0.0:445            DESKTOP-6N0LA5S:0      LISTENING
+ Can not obtain ownership information
+  TCP    0.0.0.0:1688           DESKTOP-6N0LA5S:0      LISTENING
+ [KMS-R@1n.exe]
+  TCP    0.0.0.0:5040           DESKTOP-6N0LA5S:0      LISTENING
+  CDPSvc
+ [svchost.exe]
+  TCP    0.0.0.0:7680           DESKTOP-6N0LA5S:0      LISTENING
+ Can not obtain ownership information
+  TCP    0.0.0.0:27036          DESKTOP-6N0LA5S:0      LISTENING
+ [Steam.exe]
+  TCP    0.0.0.0:49664          DESKTOP-6N0LA5S:0      LISTENING
+ Can not obtain ownership information
+  TCP    0.0.0.0:49665          DESKTOP-6N0LA5S:0      LISTENING
+  EventLog
+ [svchost.exe]
+  TCP    0.0.0.0:49666          DESKTOP-6N0LA5S:0      LISTENING
+  Schedule
+ [svchost.exe]
+  TCP    0.0.0.0:49667          DESKTOP-6N0LA5S:0      LISTENING
+  SessionEnv
+ [svchost.exe]
+  TCP    0.0.0.0:49668          DESKTOP-6N0LA5S:0      LISTENING
+ [spoolsv.exe]
+  TCP    0.0.0.0:49696          DESKTOP-6N0LA5S:0      LISTENING
+ Can not obtain ownership information
+  TCP    0.0.0.0:49697          DESKTOP-6N0LA5S:0      LISTENING
+ Can not obtain ownership information
+  TCP    127.0.0.1:3213         DESKTOP-6N0LA5S:0      LISTENING
+ [OriginWebHelperService.exe]
+  TCP    127.0.0.1:6942         DESKTOP-6N0LA5S:0      LISTENING
+ [pycharm64.exe]
+  TCP    127.0.0.1:12025        DESKTOP-6N0LA5S:0      LISTENING
+ Can not obtain ownership information
+  TCP    127.0.0.1:12110        DESKTOP-6N0LA5S:0      LISTENING
+ Can not obtain ownership information
+  TCP    127.0.0.1:12119        DESKTOP-6N0LA5S:0      LISTENING
+ Can not obtain ownership information
+  TCP    127.0.0.1:12143        DESKTOP-6N0LA5S:0      LISTENING
+ Can not obtain ownership information
+  TCP    127.0.0.1:12465        DESKTOP-6N0LA5S:0      LISTENING
+ Can not obtain ownership information
+  TCP    127.0.0.1:12563        DESKTOP-6N0LA5S:0      LISTENING
+ Can not obtain ownership information
+  TCP    127.0.0.1:12993        DESKTOP-6N0LA5S:0      LISTENING
+ Can not obtain ownership information
+  TCP    127.0.0.1:12993        DESKTOP-6N0LA5S:49728  ESTABLISHED
+ Can not obtain ownership information
+  TCP    127.0.0.1:12995        DESKTOP-6N0LA5S:0      LISTENING
+ Can not obtain ownership information
+  TCP    127.0.0.1:27060        DESKTOP-6N0LA5S:0      LISTENING
+ [Steam.exe]
+  TCP    127.0.0.1:27275        DESKTOP-6N0LA5S:0      LISTENING
+ Can not obtain ownership information
+  TCP    127.0.0.1:49728        DESKTOP-6N0LA5S:12993  ESTABLISHED
+  OneSyncSvc_85074d
+ [svchost.exe]
+  TCP    127.0.0.1:50587        DESKTOP-6N0LA5S:50588  ESTABLISHED
+ [pycharm64.exe]
+  TCP    127.0.0.1:50588        DESKTOP-6N0LA5S:50587  ESTABLISHED
+ [pycharm64.exe]
+  TCP    127.0.0.1:50589        DESKTOP-6N0LA5S:50590  ESTABLISHED
+ [pycharm64.exe]
+  TCP    127.0.0.1:50590        DESKTOP-6N0LA5S:50589  ESTABLISHED
+ [pycharm64.exe]
+  TCP    127.0.0.1:50652        DESKTOP-6N0LA5S:0      LISTENING
+ [NVIDIA Web Helper.exe]
+  TCP    127.0.0.1:50652        DESKTOP-6N0LA5S:57652  ESTABLISHED
+ [NVIDIA Web Helper.exe]
+  TCP    127.0.0.1:57629        DESKTOP-6N0LA5S:65001  ESTABLISHED
+ [nvcontainer.exe]
+  TCP    127.0.0.1:57652        DESKTOP-6N0LA5S:50652  ESTABLISHED
+ [NVIDIA Share.exe]
+  TCP    127.0.0.1:63342        DESKTOP-6N0LA5S:0      LISTENING
+ [pycharm64.exe]
+  TCP    127.0.0.1:65001        DESKTOP-6N0LA5S:0      LISTENING
+ [nvcontainer.exe]
+  TCP    127.0.0.1:65001        DESKTOP-6N0LA5S:57629  ESTABLISHED
+ [nvcontainer.exe]
+  TCP    192.168.1.26:139       DESKTOP-6N0LA5S:0      LISTENING
+ Can not obtain ownership information
+  TCP    192.168.1.26:49714     wm-in-f188:5228        ESTABLISHED
+ [chrome.exe]
+  TCP    192.168.1.26:49729     wn-in-f109:imaps       ESTABLISHED
+ Can not obtain ownership information
+  TCP    192.168.1.26:50417     40.101.138.210:https   ESTABLISHED
+ [SearchUI.exe]
+  TCP    192.168.1.26:50443     151.101.114.2:https    ESTABLISHED
+ [chrome.exe]
+  TCP    192.168.1.26:50481     cws-iad1:https         ESTABLISHED
+ [chrome.exe]
+  TCP    192.168.1.26:50482     whatsapp-cdn-shv-01-sof1:https  ESTABLISHED
+ [chrome.exe]
+  TCP    192.168.1.26:50484     ec2-100-26-125-169:https  ESTABLISHED
+ [chrome.exe]
+  TCP    192.168.1.26:50485     ec2-34-237-73-95:https  ESTABLISHED
+ [chrome.exe]
+  TCP    192.168.1.26:50538     192.168.1.30:5900      ESTABLISHED
+ [VNC-Viewer-6.19.107-Windows-64bit.exe]
+  TCP    192.168.1.26:50546     a95-101-15-37:https    ESTABLISHED
+ [chrome.exe]
+  TCP    192.168.1.26:50547     a95-101-15-37:https    ESTABLISHED
+ [chrome.exe]
+  TCP    192.168.1.26:50548     a95-101-15-37:https    ESTABLISHED
+ [chrome.exe]
+  TCP    192.168.1.26:50549     a95-101-15-37:https    ESTABLISHED
+ [chrome.exe]
+  TCP    192.168.1.26:50550     a95-101-15-37:https    ESTABLISHED
+ [chrome.exe]
+  TCP    192.168.1.26:50551     a95-101-15-37:https    ESTABLISHED
+ [chrome.exe]
+  TCP    192.168.1.26:50552     host-212-252-126-89:https  ESTABLISHED
+ [chrome.exe]
+  TCP    192.168.1.26:50553     host-212-252-126-89:https  ESTABLISHED
+ [chrome.exe]
+  TCP    192.168.1.26:50555     a2-17-137-233:https    ESTABLISHED
+ [chrome.exe]
+  TCP    192.168.1.26:50558     40.77.226.250:https    ESTABLISHED
+ [chrome.exe]
+  TCP    192.168.1.26:50559     40.77.226.250:https    ESTABLISHED
+ [chrome.exe]
+  TCP    192.168.1.26:50562     40.77.226.250:https    ESTABLISHED
+ [chrome.exe]
+  TCP    192.168.1.26:50563     a104-66-66-66:https    ESTABLISHED
+ [chrome.exe]
+  TCP    192.168.1.26:50568     a104-123-16-249:https  ESTABLISHED
+ [chrome.exe]
+  TCP    192.168.1.26:50586     184:https              ESTABLISHED
+ [chrome.exe]
+  TCP    192.168.1.26:50602     server-143-204-101-36:https  ESTABLISHED
+ [chrome.exe]
+  TCP    192.168.1.26:50603     151.139.242.29:https   ESTABLISHED
+ [chrome.exe]
+  TCP    192.168.1.26:50604     104.16.205.165:https   ESTABLISHED
+ [chrome.exe]
+  TCP    192.168.1.26:50606     i2:https               ESTABLISHED
+ [chrome.exe]
+  TCP    192.168.1.26:50609     edge-star-mini-shv-01-sof1:https  TIME_WAIT
+  TCP    192.168.1.26:50611     93.184.220.66:https    ESTABLISHED
+ [chrome.exe]
+  TCP    192.168.1.26:50614     104.244.42.136:https   ESTABLISHED
+ [chrome.exe]
+  TCP    192.168.1.26:50615     server-143-204-101-36:https  ESTABLISHED
+ [chrome.exe]
+  TCP    192.168.1.26:50618     a104-104-184-200:https  ESTABLISHED
+ [chrome.exe]
+  TCP    192.168.1.26:50620     ec2-34-206-9-96:https  TIME_WAIT
+  TCP    192.168.1.26:50624     host-212-252-126-27:http  TIME_WAIT
+  TCP    192.168.1.26:50625     r-173-58-45-5:http     TIME_WAIT
+  TCP    192.168.1.26:50628     13.107.246.254:https   ESTABLISHED
+ [SearchUI.exe]
+  TCP    192.168.1.26:50629     13.107.18.11:https     ESTABLISHED
+ [SearchUI.exe]
+  TCP    192.168.1.26:50630     13.107.136.254:https   ESTABLISHED
+ [SearchUI.exe]
+  TCP    192.168.1.26:50631     131.253.33.254:https   ESTABLISHED
+ [SearchUI.exe]
+  TCP    192.168.1.26:50632     204.79.197.222:https   ESTABLISHED
+ [SearchUI.exe]
+  TCP    192.168.1.26:50633     13.107.21.200:https    ESTABLISHED
+ [SearchUI.exe]
+  TCP    192.168.1.26:50634     204.79.197.254:https   ESTABLISHED
+ [SearchUI.exe]
+  TCP    192.168.1.26:50635     13.107.18.254:https    ESTABLISHED
+ [SearchUI.exe]
+  TCP    192.168.1.26:50636     13.107.140.254:https   ESTABLISHED
+ [SearchUI.exe]
+  TCP    192.168.1.26:50698     a23-221-181-91:https   CLOSE_WAIT
+ [WinStore.App.exe]
+  TCP    192.168.1.26:50699     a23-221-181-91:https   ESTABLISHED
+ [WinStore.App.exe]
+  TCP    192.168.1.26:50700     a23-221-184-69:http    CLOSE_WAIT
+ [WinStore.App.exe]
+  TCP    192.168.1.26:50701     a23-221-184-69:http    CLOSE_WAIT
+ [WinStore.App.exe]
+  TCP    192.168.1.26:50702     a23-221-184-69:http    CLOSE_WAIT
+ [WinStore.App.exe]
+  TCP    192.168.1.26:50703     a23-221-184-69:http    CLOSE_WAIT
+ [WinStore.App.exe]
+  TCP    192.168.1.26:57656     40.67.252.206:https    ESTABLISHED
+  WpnService
+ [svchost.exe]
+  TCP    192.168.1.26:57703     162.254.197.180:27021  ESTABLISHED
+ [Steam.exe]
+  TCP    192.168.1.26:59604     fra02-004:http         ESTABLISHED
+ Can not obtain ownership information
+  TCP    [::]:80                DESKTOP-6N0LA5S:0      LISTENING
+ Can not obtain ownership information
+  TCP    [::]:135               DESKTOP-6N0LA5S:0      LISTENING
+  RpcSs
+ [svchost.exe]
+  TCP    [::]:445               DESKTOP-6N0LA5S:0      LISTENING
+ Can not obtain ownership information
+  TCP    [::]:1688              DESKTOP-6N0LA5S:0      LISTENING
+ [KMS-R@1n.exe]
+  TCP    [::]:7680              DESKTOP-6N0LA5S:0      LISTENING
+ Can not obtain ownership information
+  TCP    [::]:49664             DESKTOP-6N0LA5S:0      LISTENING
+ Can not obtain ownership information
+  TCP    [::]:49665             DESKTOP-6N0LA5S:0      LISTENING
+  EventLog
+ [svchost.exe]
+  TCP    [::]:49666             DESKTOP-6N0LA5S:0      LISTENING
+  Schedule
+ [svchost.exe]
+  TCP    [::]:49667             DESKTOP-6N0LA5S:0      LISTENING
+  SessionEnv
+ [svchost.exe]
+  TCP    [::]:49668             DESKTOP-6N0LA5S:0      LISTENING
+ [spoolsv.exe]
+  TCP    [::]:49696             DESKTOP-6N0LA5S:0      LISTENING
+ Can not obtain ownership information
+  TCP    [::]:49697             DESKTOP-6N0LA5S:0      LISTENING
+ Can not obtain ownership information
+  TCP    [::1]:12025            DESKTOP-6N0LA5S:0      LISTENING
+ Can not obtain ownership information
+  TCP    [::1]:12110            DESKTOP-6N0LA5S:0      LISTENING
+ Can not obtain ownership information
+  TCP    [::1]:12119            DESKTOP-6N0LA5S:0      LISTENING
+ Can not obtain ownership information
+  TCP    [::1]:12143            DESKTOP-6N0LA5S:0      LISTENING
+ Can not obtain ownership information
+  TCP    [::1]:12465            DESKTOP-6N0LA5S:0      LISTENING
+ Can not obtain ownership information
+  TCP    [::1]:12563            DESKTOP-6N0LA5S:0      LISTENING
+ Can not obtain ownership information
+  TCP    [::1]:12993            DESKTOP-6N0LA5S:0      LISTENING
+ Can not obtain ownership information
+  TCP    [::1]:12995            DESKTOP-6N0LA5S:0      LISTENING
+ Can not obtain ownership information
+  TCP    [::1]:27275            DESKTOP-6N0LA5S:0      LISTENING
+ Can not obtain ownership information
+  TCP    [::1]:49952            DESKTOP-6N0LA5S:0      LISTENING
+ [jhi_service.exe]
+  UDP    0.0.0.0:5050           *:*
+  CDPSvc
+ [svchost.exe]
+  UDP    0.0.0.0:5353           *:*
+ [chrome.exe]
+  UDP    0.0.0.0:5353           *:*
+ [chrome.exe]
+  UDP    0.0.0.0:5353           *:*
+  Dnscache
+ [svchost.exe]
+  UDP    0.0.0.0:5355           *:*
+  Dnscache
+ [svchost.exe]
+  UDP    0.0.0.0:27036          *:*
+ [Steam.exe]
+  UDP    0.0.0.0:51265          *:*
+ [chrome.exe]
+  UDP    0.0.0.0:60635          *:*
+ [nvcontainer.exe]
+  UDP    0.0.0.0:64479          *:*
+ [chrome.exe]
+  UDP    127.0.0.1:1900         *:*
+  SSDPSRV
+ [svchost.exe]
+  UDP    127.0.0.1:48301        *:*
+ [NVIDIA Web Helper.exe]
+  UDP    127.0.0.1:56485        *:*
+ [nvcontainer.exe]
+  UDP    127.0.0.1:60562        *:*
+  iphlpsvc
+ [svchost.exe]
+  UDP    127.0.0.1:62890        *:*
+  SSDPSRV
+ [svchost.exe]
+  UDP    192.168.1.26:137       *:*
+ Can not obtain ownership information
+  UDP    192.168.1.26:138       *:*
+ Can not obtain ownership information
+  UDP    192.168.1.26:1900      *:*
+  SSDPSRV
+ [svchost.exe]
+  UDP    192.168.1.26:5353      *:*
+ [nvcontainer.exe]
+  UDP    192.168.1.26:57843     *:*
+ Can not obtain ownership information
+  UDP    192.168.1.26:62889     *:*
+  SSDPSRV
+ [svchost.exe]
+  UDP    192.168.1.26:65532     *:*
+ Can not obtain ownership information
+  UDP    [::]:5353              *:*
+ [chrome.exe]
+  UDP    [::]:5353              *:*
+  Dnscache
+ [svchost.exe]
+  UDP    [::]:5355              *:*
+  Dnscache
+ [svchost.exe]
+  UDP    [::]:27036             *:*
+ [Steam.exe]
+  UDP    [::]:60636             *:*
+ [nvcontainer.exe]
+  UDP    [::1]:1900             *:*
+  SSDPSRV
+ [svchost.exe]
+  UDP    [::1]:5353             *:*
+ [nvcontainer.exe]
+  UDP    [::1]:62888            *:*
+  SSDPSRV
+ [svchost.exe]
+  UDP    [fe80::c16d:7dd5:5193:fd4c%14]:1900  *:*
+  SSDPSRV
+ [svchost.exe]
+  UDP    [fe80::c16d:7dd5:5193:fd4c%14]:62887  *:*
+  SSDPSRV
+ [svchost.exe]
+  UDP    [fe80::c16d:7dd5:5193:fd4c%14]:65531  *:*
+ Can not obtain ownership information
+
+C:\WINDOWS\system32>stop
+'stop' is not recognized as an internal or external command,
+operable program or batch file.

@@ -1,0 +1,50 @@
+import time
+import cv2
+import mss
+import numpy
+import tkinter as tk
+
+root = tk.Tk()
+width_px = root.winfo_screenwidth()
+height_px = root.winfo_screenheight()
+print('Width: %i px, Height: %i px' % (width_px, height_px))
+x = int(width_px / 2)
+y = int(height_px / 2)
+
+with mss.mss() as sct:
+    monitor1 = {"top": 0, "left": 0, "width": x, "height": y}
+    monitor2 = {"top": y, "left": 0, "width": x, "height": y}
+    monitor3 = {"top": 0, "left": x, "width": x, "height": y}
+    monitor4 = {"top": y, "left": x, "width": x, "height": y}
+
+    while True:
+        last_time = time.time()
+        img1 = numpy.array(sct.grab(monitor1))
+        img2 = numpy.array(sct.grab(monitor2))
+        img3 = numpy.array(sct.grab(monitor3))
+        img4 = numpy.array(sct.grab(monitor4))
+        cv2.imshow("Monitor 1", img1)
+        cv2.imshow("Monitor 2", img2)
+        cv2.imshow("Monitor 3", img3)
+        cv2.imshow("Monitor 4", img4)
+
+        print("fps: {}".format(1 / (time.time() - last_time)))
+
+        if cv2.waitKey(25) & 0xFF == ord("q"):
+            cv2.destroyAllWindows()
+            break
+
+
+
+
+
+
+UDP_IP = "192.168.1.26"
+UDP_PORT = 65001
+
+
+UDP_IP = "192.168.1.30"
+UDP_PORT = 5900
+
+
+
